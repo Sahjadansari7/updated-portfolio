@@ -93,8 +93,8 @@ export function Projects() {
           </div>
 
           <p className="text-muted-foreground text-lg mb-12 max-w-2xl">
-            Production-ready applications built with the MERN stack, deployed
-            and battle-tested
+            Personal projects built with the MERN stack to strengthen my full-stack development skills and
+            explore modern web technologies.
           </p>
 
           {/* Featured Projects */}

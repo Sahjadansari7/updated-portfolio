@@ -83,7 +83,7 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="text-muted-foreground text-lg mb-4"
             >
-              Full-stack developer crafting production-ready web applications
+              Full-stack developer crafting responsive web applications
               with MongoDB, Express, React, and Node.js
             </motion.p>
 

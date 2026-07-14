@@ -60,7 +60,7 @@ export function Experience() {
                 <h2 className="text-3xl sm:text-4xl font-bold">Experience</h2>
               </div>
               <p className="text-muted-foreground text-lg">
-                Delivering results across startups and established tech companies
+                Learning Journey & Personal Projects
               </p>
             </div>
             <Card className="hidden sm:block bg-card border-border">
@@ -89,18 +89,16 @@ export function Experience() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.2 }}
-                  className={`relative flex flex-col md:flex-row gap-8 ${
-                    index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
+                  className={`relative flex flex-col md:flex-row gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                    }`}
                 >
                   {/* Timeline Dot */}
                   <div className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-full transform -translate-x-1/2 md:-translate-x-1/2 border-4 border-background z-10" />
 
                   {/* Content */}
                   <div
-                    className={`md:w-1/2 pl-8 md:pl-0 ${
-                      index % 2 === 0 ? "md:pr-12" : "md:pl-12"
-                    }`}
+                    className={`md:w-1/2 pl-8 md:pl-0 ${index % 2 === 0 ? "md:pr-12" : "md:pl-12"
+                      }`}
                   >
                     <Card className="bg-card border-border hover:shadow-lg transition-shadow">
                       <CardContent className="p-6">

@@ -54,17 +54,18 @@ export function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I&apos;m a full-stack developer specializing in the MERN stack,
-                focused on building web applications that solve real problems.
-                With experience shipping production applications for startups
-                and enterprises, I bring both technical depth and product
-                thinking to every project.
+                I'm a full-stack MERN developer passionate about building modern,
+                responsive, and user-friendly web applications. I enjoy turning
+                ideas into practical projects while continuously improving my
+                skills through hands-on learning and real-world development.
+
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My passion lies in creating seamless user experiences backed by
-                robust, scalable architectures. I believe in writing clean,
-                maintainable code and staying current with modern development
-                practices.
+                My passion lies in writing clean, maintainable code, creating
+                intuitive user experiences, and exploring modern web technologies.
+                I'm always eager to learn new tools, improve my problem-solving
+                skills, and build scalable applications using the MERN stack.
+
               </p>
             </div>
 
