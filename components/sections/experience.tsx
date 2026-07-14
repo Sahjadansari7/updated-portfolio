@@ -70,8 +70,15 @@ export function Experience() {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Resume.pdf</p>
-                  <Button variant="link" className="p-0 h-auto text-sm">
-                    Download Resume
+                  <Button asChild variant="link" className="p-0 h-auto text-sm">
+                    <a
+                      href="/Resume.pdf"
+                      download="Sahjad_Ansari_Resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Download Resume
+                    </a>
                   </Button>
                 </div>
               </CardContent>
