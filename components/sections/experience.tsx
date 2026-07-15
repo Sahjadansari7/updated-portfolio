@@ -53,7 +53,7 @@ export function Experience() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex items-center justify-between mb-12">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mb-12">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <Briefcase className="w-8 h-8 text-primary" />
@@ -63,9 +63,9 @@ export function Experience() {
                 Learning Journey & Personal Projects
               </p>
             </div>
-            <Card className="hidden sm:block bg-card border-border">
+            <Card className="bg-card border-border w-full sm:w-auto">
               <CardContent className="p-4 flex items-center gap-4">
-                <div className="w-10 h-10 rounded bg-primary/10 flex items-center justify-center">
+                <div className="w-10 h-10 rounded bg-primary/10 flex items-center justify-center shrink-0">
                   <Download className="w-5 h-5 text-primary" />
                 </div>
                 <div>
